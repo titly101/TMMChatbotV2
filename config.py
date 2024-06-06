@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
-MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "tmm_support_chat")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "tmm_heroku_world")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "moh_maya_official")
+API_ID = int(getenv("API_ID", "22283740"))
+API_HASH = getenv("API_HASH", "e3c4927cbd996aa6b1f6f8bfc776fdfb")
+BOT_TOKEN = getenv("BOT_TOKEN", "7315683287:AAFDlmUpjvvNqRFeSXP4MgsgOC--ioT5p1w")
+OWNER_ID = int(getenv("OWNER_ID", "6404269843"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/Sofiya_Ed")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/BOT_CRATION")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Sayantika_009")
 
 # Random Start Images
 IMG = [
